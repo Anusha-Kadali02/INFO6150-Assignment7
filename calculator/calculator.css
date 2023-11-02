@@ -1,0 +1,81 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container{
+    width:35%;
+}
+
+.row, .inputs{
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    height: 35px;
+    border: none;
+    border:solid 1px #ccc;
+    border-radius: 8px;
+    width:100%;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.clears{
+    display: flex;
+    justify-content: center;
+}
+
+.button-row button {
+    margin: 0 10px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+
+.add,.subtract,.multiply,.divide{
+    width:100%;
+    background-color: #f1ff92;
+    font-size: 22px;
+}
+
+.answer{
+    width:98%;
+}
+
+.input1,.input2{
+    width:47%;
+}
+
+.clear,.submit{
+    width: 100%;
+    margin: 0 10px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+
+.clear{
+    background-color: #f297a0;
+}
+
+.submit{
+    background-color: #B0D9B1;
+}
+
+.error{
+    color: red;
+}
+
+#name{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}

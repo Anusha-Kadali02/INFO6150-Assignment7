@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Montserrat:wght@100;400&family=Poltawski+Nowy:wght@500&family=Poppins:wght@200&family=Tiro+Devanagari+Sanskrit&family=Titan+One&display=swap');
+
+body{
+    background: linear-gradient(90deg, hsla(352, 83%, 64%, 1) 0%, hsla(230, 90%, 68%, 1) 100%);
+}
+
+.stop-watch{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.label, .btns, .date{
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: whitesmoke;
+    border: none;
+}
+
+.label{
+    margin-top: 20px;
+}
+
+.button-start, .button-stop, .button-reset{
+    height: 30px;
+    border-radius: 6px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    cursor: pointer;
+}
+
+.button-stop{
+    background-color: #FF6969;
+}
+
+.button-reset{
+    background-color: #FFFFD0;
+}
+
+.button-start{
+    background-color: #DDFFBB;
+}
+
+.date {
+    text-align: center;
+  }
+
+  #date {
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+  }
